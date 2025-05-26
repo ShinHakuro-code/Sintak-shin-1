@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import Navbar from "./Pages/Navbar";
 import { FaArrowRight } from "react-icons/fa";
 import Footer from "./Footer";
 

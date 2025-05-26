@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from ".Pages/Navbar";
 import Footer from "./Footer";
 import { PiCoffeeBeanFill } from "react-icons/pi";
 import { GoPeople } from "react-icons/go";

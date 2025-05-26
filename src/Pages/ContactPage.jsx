@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from ".Pages/Navbar";
 import Footer from "./Footer";
 import React, { useState } from "react";
 import { db } from "../firebase";
