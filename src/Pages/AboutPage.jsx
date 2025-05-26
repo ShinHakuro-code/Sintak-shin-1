@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+// import Navbar from "./Navbar";
+// import Footer from "./Footer";
 import { PiCoffeeBeanFill } from "react-icons/pi";
 import { GoPeople } from "react-icons/go";
 import { GiFlamedLeaf } from "react-icons/gi";
@@ -8,11 +8,11 @@ import { GiFlamedLeaf } from "react-icons/gi";
 function AboutPage() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <Section2 />
       <CommitmentSection />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
