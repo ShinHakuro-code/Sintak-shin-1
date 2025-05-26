@@ -3,21 +3,21 @@ import { PiCoffeeBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  // const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const isScrolled = window.scrollY > 10;
-  //     if (isScrolled !== scrolled) {
-  //       setScrolled(isScrolled);
-  //     }
-  //   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 10;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
 
-  //   document.addEventListener("scroll", handleScroll, { passive: true });
-  //   return () => {
-  //     document.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, [scrolled]);
+    document.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrolled]);
 
   return (
     <div
