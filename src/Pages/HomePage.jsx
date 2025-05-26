@@ -27,7 +27,7 @@ function HeroSection() {
       <div
         className="hero h-[450px]"
         style={{
-          backgroundImage: "url(src/assets/Coffee.jpg)",
+          backgroundImage: "url(/Coffee.jpg)",
         }}
       >
         <div className="hero-overlay"></div>
@@ -57,7 +57,7 @@ function Section2() {
         <div className="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-16">
           <div className="lg:w-1/2 w-full lg:pl-8">
             <img
-              src="src/assets/BG5.jpg"
+              src="BG5.jpg"
               alt="Indonesian coffee beans"
               className="w-full h-auto rounded-lg shadow-2xl object-cover"
             />

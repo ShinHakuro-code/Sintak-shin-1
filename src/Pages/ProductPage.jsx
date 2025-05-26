@@ -23,7 +23,7 @@ function HeroSection() {
       <div
         className="hero h-[450px]"
         style={{
-          backgroundImage: "url(src/assets/BG2.jpg)",
+          backgroundImage: "url(BG2.jpg)",
         }}
       >
         <div className="hero-overlay"></div>
@@ -55,7 +55,7 @@ function Section2() {
           <div className="card bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-full">
             <figure className="h-48 overflow-hidden">
               <img
-                src="src/assets/Americano.jpg"
+                src="Americano.jpg"
                 alt="Americano"
                 className="w-full h-full object-cover"
               />
@@ -77,7 +77,7 @@ function Section2() {
           <div className="card bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-full">
             <figure className="h-48 overflow-hidden">
               <img
-                src="src/assets/Expreso1.jpg"
+                src="Expreso1.jpg"
                 alt="Espresso"
                 className="w-full h-full object-cover"
               />
@@ -98,7 +98,7 @@ function Section2() {
           <div className="card bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-full">
             <figure className="h-48 overflow-hidden">
               <img
-                src="src/assets/Latte.png"
+                src="Latte.png"
                 alt="Latte"
                 className="w-full h-full object-cover"
               />
@@ -119,7 +119,7 @@ function Section2() {
           <div className="card bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-full">
             <figure className="h-48 overflow-hidden">
               <img
-                src="src\assets\long black.jpg"
+                src="long black.jpg"
                 alt="Long Black"
                 className="w-full h-full object-cover"
               />

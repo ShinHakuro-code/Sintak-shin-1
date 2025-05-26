@@ -25,7 +25,7 @@ function HeroSection() {
       <div
         className="hero h-[450px]"
         style={{
-          backgroundImage: "url(src/assets/BG1.jpg)",
+          backgroundImage: "url(BG1.jpg)",
         }}
       >
         <div className="hero-overlay"></div>
@@ -48,7 +48,7 @@ function Section2() {
       <section className="max-h-auto max-w-auto bg-orange-100">
         <div className="hero-content flex-col lg:flex-row-reverse pt-20 pb-20 pl-25">
           <img
-            src="src\assets\Coffee2.jpg"
+            src="Coffee2.jpg"
             className="max-w-md max-h-110 rounded-lg shadow-2xl"
           />
           <div className="mr-30">

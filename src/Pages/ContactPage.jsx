@@ -22,7 +22,7 @@ function HeroSection() {
     <div
       className="hero h-[450px]"
       style={{
-        backgroundImage: "url(src/assets/BG3.jpg)",
+        backgroundImage: "url(BG3.jpg)",
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
